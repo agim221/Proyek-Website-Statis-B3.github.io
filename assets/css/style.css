@@ -69,6 +69,11 @@ h6 {
   opacity: 1;
 }
 
+.padding-top {
+  padding-top: 25px;
+  font-size: xx-larget;
+}
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -369,13 +374,20 @@ h6 {
   display: block;
 }
 
+.peran {
+  list-style-type: none;
+}
+
+.grid-peran {
+  display: grid;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: calc(100vh - 70px);
-  background: url("../img/hero-bg.jpg") center center;
+  background: url("../img/awal.jpg") center center;
   background-size: cover;
   position: relative;
   margin-top: 70px;
