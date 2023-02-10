@@ -55,6 +55,10 @@ h6 {
   line-height: 0;
 }
 
+.margin-foto {
+  margin-right: 15px;
+}
+
 .back-to-top:hover {
   background: #21cfaf;
   color: #fff;
@@ -102,7 +106,7 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 0;
+  margin: 10;
   max-height: 40px;
 }
 
