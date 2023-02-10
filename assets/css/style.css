@@ -584,6 +584,11 @@ section {
   color: #21413c;
 }
 
+table, tr, th {
+  border:2px solid black;
+  border-collapse: collapse;
+}
+
 .about .icon-box p {
   font-size: 15px;
   color: #848484;
@@ -719,7 +724,7 @@ section {
 .services .icon i {
   font-size: 48px;
   line-height: 1;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .services .title {
