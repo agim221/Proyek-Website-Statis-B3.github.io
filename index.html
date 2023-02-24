@@ -37,6 +37,7 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
+    <script defer src="script.js"></script>
 
     <!-- =======================================================
   * Template Name: Maxim - v4.10.0
@@ -493,6 +494,47 @@
         </div>
       </section>
       <!-- End Team Section -->
+
+      <!-- <div>
+        <h1>Headline Republika Online</h1>
+        <div id="headline_json"></div>
+      </div>
+      
+         <script type="text/javascript">
+          $(function(){
+              $.get('./BeritaTerkini.json',function(obj){
+                  var str = "<table border=1>";
+                  str +="<tr><td>No</td><td class='tables'>Judul</td><td class='tables'>Kategori</td><td class='foto'>Foto</td></tr>";
+                  $.each(obj,function(n,data){
+                      str +="<td>" + (n+1) + "</td>";
+                      str +="<td>" + data.judul + "</td>";
+                      str +="<td class='tables'>" + data.kategori + "</td>";
+                      str +="<img  src=" + data.picture + "/>";
+                  });
+                  str +="</table>";
+                  $('#headline_json').html(str);
+              });
+          });
+        </script> -->
+
+        <h1 class="judul-berita">Daftar Berita</h1>
+    <ul id="berita"></ul>
+
+    <script src="BeritaTerkini.json"></script>
+    <script>
+      fetch('BeritaTerkini.json')
+        .then(response => response.json())
+        .then(data => {
+          let berita = document.getElementById('berita');
+          data.forEach(item => {
+            let elem = document.createElement('ul');
+            elem.innerHTML = `<li class="berita"><p>${item.judul}</p><p class="berita-kategori">${item.kategori}</p><img src="${item.picture}"/></li>`;
+            berita.appendChild(elem);
+          });
+        });
+    </script>
+
+      
 
       <!-- ======= Contact Section ======= -->
       <section id="contact" class="contact">
