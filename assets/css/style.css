@@ -1580,6 +1580,20 @@ ul {
   padding-bottom: 10px;
 }
 
+.berita a:link,
+.berita a:visited {
+  color: #0f5fc6;
+}
+
+.berita a:hover {
+  color: rgb(102, 121, 137);
+  text-decoration: underline;
+}
+
+.berita a:active {
+  color: black;
+}
+
 .berita-kategori {
   color: rgb(228, 113, 113);
 }

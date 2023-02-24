@@ -517,7 +517,7 @@
               });
           });
         </script> -->
-    <section id="section-berita">
+    <section id="section-berita" >
       <div class="container" data-aos="fade-up">
         <h1 class="judul-berita">Daftar Berita</h1>
         <ul id="berita"></ul>
@@ -530,7 +530,7 @@
             let berita = document.getElementById('berita');
             data.forEach(item => {
               let elem = document.createElement('ul');
-              elem.innerHTML = `<li class="berita"><p>${item.judul}</p><p class="berita-kategori">${item.kategori}</p><img src="${item.picture}" witdth="150" height="150"/></li>`;
+              elem.innerHTML = `<li class="berita"><a href="${item.link} target="_blank" rel="noopener noreferrer">${item.judul}</a><p class="berita-kategori">${item.kategori}</p><img src="${item.picture}" witdth="150" height="150"/></li>`;
               berita.appendChild(elem);
             });
           });
