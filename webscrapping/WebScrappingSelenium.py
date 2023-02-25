@@ -6,6 +6,7 @@ import urllib.request
 import json
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from datetime import datetime
 
 
 
@@ -15,9 +16,10 @@ driver = webdriver.Chrome()
 driver.get("https://rateyourmusic.com/charts/top/album/all-time/")
 time.sleep(5)
 
+now =datetime.now()
 music_list = []
 i = 1
-print("Adding Top 80 Albums...")
+
 while i <= 80:
     for music in driver.find_elements(By.CLASS_NAME, "page_section_charts_item_wrapper"):
         driver.execute_script("window.scrollBy(0, 400);")
@@ -33,7 +35,8 @@ while i <= 80:
                  "Rating": music.text.split("\n")[2],
                  "Genre": music.text.split("\n")[6].split()[0],
                  "Tanggal_Rilis": music.text.split("\n")[5],
-                 "Img": img.get_attribute("src")
+                 "Img": img.get_attribute("src"), 
+                 "waktu_scraping": now.strftime("%Y-%m-%d %H:%M:%S")
                  }
                 )
             i = i + 1
@@ -45,7 +48,7 @@ while i <= 80:
         )
         pagination_btn.click()
 
-        time.sleep(10)
+        time.sleep(5)
     except NoSuchElementException as e:
         break
     

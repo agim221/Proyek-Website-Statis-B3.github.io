@@ -519,7 +519,7 @@
         </script> -->
     <section id="section-berita" >
       <div class="container" data-aos="fade-up">
-        <h1 class="judul-berita">Data Scraping 1</h1>
+        <h2 class="judul-berita">Data Scraping 1</h2>
         <ul id="berita"></ul>
         
         <script src="BeritaTerkini.json"></script>
@@ -538,26 +538,35 @@
           </div>
       </section>
 
-      <section id="section-music" >
+      <section class="section-music" >
         <div class="container" data-aos="fade-up">
-          <h1 class="judul-music">Data Scraping 2</h1>
-          <ul id="music"></ul>
+          <h2 class="judul-berita">Data Scraping 2</h2>          
           
-          <script src="/webscrapping/hasilscraping.json"></script>
+          <ul id="albums-list"></ul>
+          
           <script>
-            fetch('hasilscraping.json')
+            fetch("webscrapping/hasilscraping.json")
             .then(response => response.json())
-            .then(data => {
-              let music = document.getElementById('music');
-              data.forEach(item => {
-                let element = document.createElement('ul');
-                elem.innerHTML = `<li><p>${item.No}</p> <p>${item.judul}</P></li>`;
-                music.appendChild(elem);
+            .then(albums => {
+              const albumsList = document.getElementById("albums-list");
+              
+              albums.forEach(album => {
+                const li = document.createElement("li");
+                li.innerHTML = `
+                <img src="${album.Img}" alt="${album.Judul} height="200" width="200">
+                <h5>Judul : ${album.Judul}</h5>
+                <p>Penyanyi : ${album.Penyanyi}</p>
+                <p>Genre : ${album.Genre}</p>
+                <p>Rilis : ${album.Tanggal_Rilis}</p>
+                <p>Rating : ${album.Rating}</p>
+                <p>Tanggal scraping: ${album.waktu_scraping}</p>
+                `;
+                albumsList.appendChild(li);
               });
             });
             </script>
-            </div>
-        </section>
+        </div>
+      </section>
 
       
 
