@@ -1,0 +1,722 @@
+[
+      {
+            "No": 1,
+            "Judul": "To Pimp a Butterfly",
+            "Penyanyi": "Kendrick Lamar",
+            "Rating": "4.34",
+            "Genre": "Conscious",
+            "Tanggal_Rilis": "15 March 2015",
+            "Img": "https://e.snmc.io/i/300/s/3a6ce8e5e033c643a146529fd774de12/8121875/Kendrick%20Lamar%20-%20To%20Pimp%20a%20Butterfly%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 2,
+            "Judul": "OK Computer",
+            "Penyanyi": "Radiohead",
+            "Rating": "4.26",
+            "Genre": "Alternative",
+            "Tanggal_Rilis": "16 June 1997",
+            "Img": "https://e.snmc.io/i/300/s/cb41b0acd3d7c304e1d1052b615ea300/8862252/Radiohead%20-%20OK%20Computer%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 3,
+            "Judul": "Wish You Were Here",
+            "Penyanyi": "Pink Floyd",
+            "Rating": "4.32",
+            "Genre": "Progressive",
+            "Tanggal_Rilis": "12 September 1975",
+            "Img": "https://e.snmc.io/i/300/s/4a254e6f1a9d64edae48659b98939b2e/4184635/Pink%20Floyd%20-%20Wish%20You%20Were%20Here%2C%20Cover%20art.png"
+      },
+      {
+            "No": 4,
+            "Judul": "In the Court of the Crimson King",
+            "Penyanyi": "King Crimson",
+            "Rating": "4.31",
+            "Genre": "Progressive",
+            "Tanggal_Rilis": "10 October 1969",
+            "Img": "https://e.snmc.io/i/300/s/028715735d39f4d2250ed2a4acafdd6c/7999484/King%20Crimson%20-%20In%20the%20Court%20of%20the%20Crimson%20King%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 5,
+            "Judul": "Kid A",
+            "Penyanyi": "Radiohead",
+            "Rating": "4.24",
+            "Genre": "Art",
+            "Tanggal_Rilis": "3 October 2000",
+            "Img": "https://e.snmc.io/i/300/s/32f09d438dd264262b4012893148aa61/8879684/Radiohead%20-%20Kid%20A%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 6,
+            "Judul": "Madvillainy",
+            "Penyanyi": "Madvillain",
+            "Rating": "4.32",
+            "Genre": "Abstract",
+            "Tanggal_Rilis": "23 March 2004",
+            "Img": "https://e.snmc.io/i/300/s/56d7cbc8e10866f5deaf8183045beffc/10532981/Madvillain%20-%20Madvillainy%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 7,
+            "Judul": "Loveless",
+            "Penyanyi": "My Bloody Valentine",
+            "Rating": "4.25",
+            "Genre": "Shoegaze",
+            "Tanggal_Rilis": "11 November 1991",
+            "Img": "https://e.snmc.io/i/300/s/e2b1f17f208ef01174446bab527902e9/8080265/My%20Bloody%20Valentine%20-%20Loveless%2C%20Cover%20art.png"
+      },
+      {
+            "No": 8,
+            "Judul": "In Rainbows",
+            "Penyanyi": "Radiohead",
+            "Rating": "4.25",
+            "Genre": "Art",
+            "Tanggal_Rilis": "10 October 2007",
+            "Img": "https://e.snmc.io/i/300/s/484b57ab2605dad8b546b441a71e3043/5914164/Radiohead%20-%20In%20Rainbows%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 9,
+            "Judul": "The Dark Side of the Moon",
+            "Penyanyi": "Pink Floyd",
+            "Rating": "4.22",
+            "Genre": "Art",
+            "Tanggal_Rilis": "23 March 1973",
+            "Img": "https://e.snmc.io/i/300/s/e61546b8cd0c86f402f2805fa66202bd/10140301/Pink%20Floyd%20-%20The%20Dark%20Side%20of%20the%20Moon%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 10,
+            "Judul": "good kid, m.A.A.d city",
+            "Penyanyi": "Kendrick Lamar",
+            "Rating": "4.27",
+            "Genre": "West",
+            "Tanggal_Rilis": "22 October 2012",
+            "Img": "https://e.snmc.io/i/300/s/fe68882017b87aa066500819dabd1525/4367819/Kendrick%20Lamar%20-%20good%20kid%2C%20m_A_A_d%20city%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 11,
+            "Judul": "Abbey Road",
+            "Penyanyi": "The Beatles",
+            "Rating": "4.26",
+            "Genre": "Pop",
+            "Tanggal_Rilis": "26 September 1969",
+            "Img": "https://e.snmc.io/i/300/s/239574bd8490195d1b484f5c453846e8/6617288/The%20Beatles%20-%20Abbey%20Road%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 12,
+            "Judul": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
+            "Penyanyi": "David Bowie",
+            "Rating": "4.26",
+            "Genre": "Glam",
+            "Tanggal_Rilis": "16 June 1972",
+            "Img": "https://e.snmc.io/i/300/s/8596161077fa5921742d551e0db97c18/8542182/David%20Bowie%20-%20The%20Rise%20and%20Fall%20of%20Ziggy%20Stardust%20and%20the%20Spiders%20From%20Mars%2C%20Cover%20art.png"
+      },
+      {
+            "No": 13,
+            "Judul": "Remain in Light",
+            "Penyanyi": "Talking Heads",
+            "Rating": "4.26",
+            "Genre": "New",
+            "Tanggal_Rilis": "8 October 1980",
+            "Img": "https://e.snmc.io/i/300/s/096e8e41e9d0ada8a159773f1d9ead89/5627825/Talking%20Heads%20-%20Remain%20in%20Light%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 14,
+            "Judul": "The Black Saint and the Sinner Lady",
+            "Penyanyi": "Mingus",
+            "Rating": "4.34",
+            "Genre": "Avant-Garde",
+            "Tanggal_Rilis": "July 1963",
+            "Img": "https://e.snmc.io/i/300/s/a77e13cf0446400cbbf5ae32dd6e4e8c/8024579/Mingus%20-%20The%20Black%20Saint%20and%20the%20Sinner%20Lady%2C%20Cover%20art.png"
+      },
+      {
+            "No": 15,
+            "Judul": "The Velvet Underground & Nico",
+            "Penyanyi": "The Velvet Underground & Nico",
+            "Rating": "4.22",
+            "Genre": "Art",
+            "Tanggal_Rilis": "12 March 1967",
+            "Img": "https://e.snmc.io/i/300/s/f48f6805395346e5335b3c763a468ca8/6988068/The%20Velvet%20Underground%20%26%20Nico%20-%20The%20Velvet%20Underground%20%26%20Nico%2C%20Cover%20art.png"
+      },
+      {
+            "No": 16,
+            "Judul": "Revolver",
+            "Penyanyi": "The Beatles",
+            "Rating": "4.23",
+            "Genre": "Pop",
+            "Tanggal_Rilis": "5 August 1966",
+            "Img": "https://e.snmc.io/i/300/s/f724483783ae005a48e2945cbcbace80/6112311/The%20Beatles%20-%20Revolver%2C%20Cover%20art.png"
+      },
+      {
+            "No": 17,
+            "Judul": "A Love Supreme",
+            "Penyanyi": "John Coltrane",
+            "Rating": "4.30",
+            "Genre": "Spiritual",
+            "Tanggal_Rilis": "February 1965",
+            "Img": "https://e.snmc.io/i/300/s/a6634967b09e7011ad86355b614d7b13/8835374/John%20Coltrane%20-%20A%20Love%20Supreme%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 18,
+            "Judul": "Illmatic",
+            "Penyanyi": "Nas",
+            "Rating": "4.24",
+            "Genre": "East",
+            "Tanggal_Rilis": "19 April 1994",
+            "Img": "https://e.snmc.io/i/300/s/6ce52d3fc11967af1232ab9b1fe3df32/5352803/Nas%20-%20Illmatic%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 19,
+            "Judul": "Paranoid",
+            "Penyanyi": "Black Sabbath",
+            "Rating": "4.21",
+            "Genre": "Heavy",
+            "Tanggal_Rilis": "18 September 1970",
+            "Img": "https://e.snmc.io/i/300/s/7ad4f7c405f632a059022f60b80b1f49/2651476/Black%20Sabbath%20-%20Paranoid%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 20,
+            "Judul": "Lift Yr. Skinny Fists Like Antennas to Heaven!",
+            "Penyanyi": "Godspeed You Black Emperor!",
+            "Rating": "4.20",
+            "Genre": "Post-Rock",
+            "Tanggal_Rilis": "9 October 2000",
+            "Img": "https://e.snmc.io/i/300/s/e4e6b6710622d3a7f5a1df028466ea4e/5662600/Godspeed%20You%20Black%20Emperor!%20-%20Lift%20Yr_%20Skinny%20Fists%20Like%20Antennas%20to%20Heaven!%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 21,
+            "Judul": "Kind of Blue",
+            "Penyanyi": "Miles Davis",
+            "Rating": "4.24",
+            "Genre": "Modal",
+            "Tanggal_Rilis": "17 August 1959",
+            "Img": "https://e.snmc.io/i/300/s/86f3d5731cb132ca3e367f36565b7bb4/7426308/Miles%20Davis%20-%20Kind%20of%20Blue%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 22,
+            "Judul": "Pet Sounds",
+            "Penyanyi": "The Beach Boys",
+            "Rating": "4.18",
+            "Genre": "Baroque",
+            "Tanggal_Rilis": "16 May 1966",
+            "Img": "https://e.snmc.io/i/300/s/c038e4b62e54623a9a7eb23a47482f64/3633017/The%20Beach%20Boys%20-%20Pet%20Sounds%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 23,
+            "Judul": "Enter the Wu-Tang (36 Chambers)",
+            "Penyanyi": "Wu-Tang Clan",
+            "Rating": "4.21",
+            "Genre": "East",
+            "Tanggal_Rilis": "9 November 1993",
+            "Img": "https://e.snmc.io/i/300/s/d4ae3d7c026b7f0b9d6d2bc2752bcfac/6558603/Wu-Tang%20Clan%20-%20Enter%20the%20Wu-Tang%20(36%20Chambers)%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 24,
+            "Judul": "Disintegration",
+            "Penyanyi": "The Cure",
+            "Rating": "4.20",
+            "Genre": "Gothic",
+            "Tanggal_Rilis": "2 May 1989",
+            "Img": "https://e.snmc.io/i/300/s/810f6f60c008286c0dfef9bb59a2a018/7272164/The%20Cure%20-%20Disintegration%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 25,
+            "Judul": "Red",
+            "Penyanyi": "King Crimson",
+            "Rating": "4.23",
+            "Genre": "Progressive",
+            "Tanggal_Rilis": "6 October 1974",
+            "Img": "https://e.snmc.io/i/300/s/d9ed557e7f1402246588fdee8c61d28f/10432883/King%20Crimson%20-%20Red%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 26,
+            "Judul": "Spiderland",
+            "Penyanyi": "Slint",
+            "Rating": "4.17",
+            "Genre": "Post-Rock",
+            "Tanggal_Rilis": "27 March 1991",
+            "Img": "https://e.snmc.io/i/300/s/855bdf28e9e0d867d21583c1240ba1f8/2161189/Slint%20-%20Spiderland%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 27,
+            "Judul": "In the Aeroplane Over the Sea",
+            "Penyanyi": "Neutral Milk Hotel",
+            "Rating": "4.09",
+            "Genre": "Indie",
+            "Tanggal_Rilis": "10 February 1998",
+            "Img": "https://e.snmc.io/i/300/s/09cfc66bb5e1ff916f349487730925c1/6902522/Neutral%20Milk%20Hotel%20-%20In%20the%20Aeroplane%20Over%20the%20Sea%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 28,
+            "Judul": "My Beautiful Dark Twisted Fantasy",
+            "Penyanyi": "Kanye West",
+            "Rating": "4.09",
+            "Genre": "Pop",
+            "Tanggal_Rilis": "22 November 2010",
+            "Img": "https://e.snmc.io/i/300/s/955cc51704c26668e3fa11cb0ebb3ccc/6045065/Kanye%20West%20-%20My%20Beautiful%20Dark%20Twisted%20Fantasy%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 29,
+            "Judul": "Animals",
+            "Penyanyi": "Pink Floyd",
+            "Rating": "4.16",
+            "Genre": "Progressive",
+            "Tanggal_Rilis": "21 January 1977",
+            "Img": "https://e.snmc.io/i/300/s/e539595f76665761cc914116fb3e1e52/4175208/Pink%20Floyd%20-%20Animals%2C%20Cover%20art.png"
+      },
+      {
+            "No": 30,
+            "Judul": "Pink Moon",
+            "Penyanyi": "Nick Drake",
+            "Rating": "4.19",
+            "Genre": "Contemporary",
+            "Tanggal_Rilis": "25 February 1972",
+            "Img": "https://e.snmc.io/i/300/s/1da78338775190bb5df42a61eb2857b1/2509162/Nick%20Drake%20-%20Pink%20Moon%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 31,
+            "Judul": "Vespertine",
+            "Penyanyi": "Bj\u00f6rk",
+            "Rating": "4.20",
+            "Genre": "Art",
+            "Tanggal_Rilis": "27 August 2001",
+            "Img": "https://e.snmc.io/i/300/s/43c57ab903a04f9550fef64d5a1ec1e0/9935583/Bj%C3%B6rk%20-%20Vespertine%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 32,
+            "Judul": "Sgt. Pepper's Lonely Hearts Club Band",
+            "Penyanyi": "The Beatles",
+            "Rating": "4.12",
+            "Genre": "Psychedelic",
+            "Tanggal_Rilis": "26 May 1967",
+            "Img": "https://e.snmc.io/i/300/s/becbd4e5855b6cf15c9131a9ef1049c9/6617240/The%20Beatles%20-%20Sgt_%20Pepper's%20Lonely%20Hearts%20Club%20Band%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 33,
+            "Judul": "Long Season",
+            "Penyanyi": "Fishmans",
+            "Rating": "4.19",
+            "Genre": "Dream",
+            "Tanggal_Rilis": "25 October 1996",
+            "Img": "https://e.snmc.io/i/300/s/7cdbc0c118a6976fdccfcc1cdb663424/10504082/Fishmans%20-%20Long%20Season%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 34,
+            "Judul": "Unknown Pleasures",
+            "Penyanyi": "Joy Division",
+            "Rating": "4.11",
+            "Genre": "Post-Punk",
+            "Tanggal_Rilis": "15 June 1979",
+            "Img": "https://e.snmc.io/i/300/s/68f713a2d6d78fb347d73fb9fc9e150f/10154759/Joy%20Division%20-%20Unknown%20Pleasures%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 35,
+            "Judul": "In a Silent Way",
+            "Penyanyi": "Miles Davis",
+            "Rating": "4.22",
+            "Genre": "Jazz",
+            "Tanggal_Rilis": "30 July 1969",
+            "Img": "https://e.snmc.io/i/300/s/6a943be3d44863aebd79d29135603ed1/9687885/Miles%20Davis%20-%20In%20a%20Silent%20Way%2C%20Cover%20art.png"
+      },
+      {
+            "No": 36,
+            "Judul": "The Queen Is Dead",
+            "Penyanyi": "The Smiths",
+            "Rating": "4.12",
+            "Genre": "Jangle",
+            "Tanggal_Rilis": "16 June 1986",
+            "Img": "https://e.snmc.io/i/300/s/da96246026262c33e397dabd25aa9809/1816031/The%20Smiths%20-%20The%20Queen%20Is%20Dead%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 37,
+            "Judul": "The Beatles [White Album]",
+            "Penyanyi": "The Beatles",
+            "Rating": "4.13",
+            "Genre": "Pop",
+            "Tanggal_Rilis": "22 November 1968",
+            "Img": "https://e.snmc.io/i/300/s/74ad01803b73c923a91889d4b09d833f/7430929/The%20Beatles%20-%20The%20Beatles%20%5BWhite%20Album%5D%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 38,
+            "Judul": "Dummy",
+            "Penyanyi": "Portishead",
+            "Rating": "4.14",
+            "Genre": "Trip",
+            "Tanggal_Rilis": "22 August 1994",
+            "Img": "https://e.snmc.io/i/300/s/58fc97939a92c33a9d448066e1ef9477/10069850/Portishead%20-%20Dummy%2C%20Cover%20art.png"
+      },
+      {
+            "No": 39,
+            "Judul": "Hounds of Love",
+            "Penyanyi": "Kate Bush",
+            "Rating": "4.17",
+            "Genre": "Art",
+            "Tanggal_Rilis": "16 September 1985",
+            "Img": "https://e.snmc.io/i/300/s/95b942018bf9b582cdc0fc709e000f7a/4288422/Kate%20Bush%20-%20Hounds%20of%20Love%2C%20Cover%20art.png"
+      },
+      {
+            "No": 40,
+            "Judul": "Songs in the Key of Life",
+            "Penyanyi": "Stevie Wonder",
+            "Rating": "4.23",
+            "Genre": "Soul",
+            "Tanggal_Rilis": "28 September 1976",
+            "Img": "https://e.snmc.io/i/300/s/8153a79eaf9126c6a9a5d42f49f6ac9f/7228470/Stevie%20Wonder%20-%20Songs%20in%20the%20Key%20of%20Life%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 41,
+            "Judul": "Highway 61 Revisited",
+            "Penyanyi": "Bob Dylan",
+            "Rating": "4.17",
+            "Genre": "Folk",
+            "Tanggal_Rilis": "30 August 1965",
+            "Img": "https://e.snmc.io/i/300/s/021b40b7c1f1d8378d88d7de1b08c023/3677487/Bob%20Dylan%20-%20Highway%2061%20Revisited%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 42,
+            "Judul": "F\u266fA\u266f\u221e",
+            "Penyanyi": "Godspeed You Black Emperor!",
+            "Rating": "4.14",
+            "Genre": "Post-Rock",
+            "Tanggal_Rilis": "14 August 1997",
+            "Img": "https://e.snmc.io/i/300/s/778fdb83a316725cda82b619554a74fd/1903204/Godspeed%20You%20Black%20Emperor!%20-%20F%E2%99%AFA%E2%99%AF%E2%88%9E%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 43,
+            "Judul": "Low",
+            "Penyanyi": "David Bowie",
+            "Rating": "4.14",
+            "Genre": "Art",
+            "Tanggal_Rilis": "14 January 1977",
+            "Img": "https://e.snmc.io/i/300/s/7026c805e571765b18b2add7edae0463/4503212/David%20Bowie%20-%20Low%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 44,
+            "Judul": "The Glow Pt. 2",
+            "Penyanyi": "The Microphones",
+            "Rating": "4.15",
+            "Genre": "Indie",
+            "Tanggal_Rilis": "11 September 2001",
+            "Img": "https://e.snmc.io/i/300/s/344b561239c8f6ef5004d1d3e8b7bbf3/8964258/The%20Microphones%20-%20The%20Glow%20Pt_%202%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 45,
+            "Judul": "Doolittle",
+            "Penyanyi": "Pixies",
+            "Rating": "4.11",
+            "Genre": "Indie",
+            "Tanggal_Rilis": "17 April 1989",
+            "Img": "https://e.snmc.io/i/300/s/259ed683edba2013589157d23c5d1a82/9267576/Pixies%20-%20Doolittle%2C%20Cover%20art.png"
+      },
+      {
+            "No": 46,
+            "Judul": "Souvlaki",
+            "Penyanyi": "Slowdive",
+            "Rating": "4.12",
+            "Genre": "Dream",
+            "Tanggal_Rilis": "1 June 1993",
+            "Img": "https://e.snmc.io/i/300/s/a7874846ce57f0c64d2c715360b6b6fd/8055860/Slowdive%20-%20Souvlaki%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 47,
+            "Judul": "Bitches Brew",
+            "Penyanyi": "Miles Davis",
+            "Rating": "4.18",
+            "Genre": "Jazz",
+            "Tanggal_Rilis": "30 March 1970",
+            "Img": "https://e.snmc.io/i/300/s/37910e100437687634175d2dca288270/2259766/Miles%20Davis%20-%20Bitches%20Brew%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 48,
+            "Judul": "The Money Store",
+            "Penyanyi": "Death Grips",
+            "Rating": "4.07",
+            "Genre": "Industrial",
+            "Tanggal_Rilis": "24 April 2012",
+            "Img": "https://e.snmc.io/3.0/img/blocked_art/img_blocked_300x300.png"
+      },
+      {
+            "No": 49,
+            "Judul": "Marquee Moon",
+            "Penyanyi": "Television",
+            "Rating": "4.14",
+            "Genre": "Art",
+            "Tanggal_Rilis": "8 February 1977",
+            "Img": "https://e.snmc.io/i/300/s/6fe2db4fd1bde512d83dca45d161de08/7659700/Television%20-%20Marquee%20Moon%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 50,
+            "Judul": "Led Zeppelin [IV]",
+            "Penyanyi": "Led Zeppelin",
+            "Rating": "4.10",
+            "Genre": "Hard",
+            "Tanggal_Rilis": "8 November 1971",
+            "Img": "https://e.snmc.io/i/300/s/bf334e0be8679eb0805ae19415200c38/5707164/Led%20Zeppelin%20-%20Led%20Zeppelin%20%5BIV%5D%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 51,
+            "Judul": "The Low End Theory",
+            "Penyanyi": "A Tribe Called Quest",
+            "Rating": "4.14",
+            "Genre": "Jazz",
+            "Tanggal_Rilis": "24 September 1991",
+            "Img": "https://e.snmc.io/i/300/s/d07ade56c12ffb967641f70075fd1a49/1724180/A%20Tribe%20Called%20Quest%20-%20The%20Low%20End%20Theory%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 52,
+            "Judul": "Close to the Edge",
+            "Penyanyi": "Yes",
+            "Rating": "4.15",
+            "Genre": "Symphonic",
+            "Tanggal_Rilis": "13 September 1972",
+            "Img": "https://e.snmc.io/i/300/s/53a7d39f4c6a8c7655df245836785d02/1638254/Yes%20-%20Close%20to%20the%20Edge%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 53,
+            "Judul": "Endtroducing.....",
+            "Penyanyi": "DJ Shadow",
+            "Rating": "4.13",
+            "Genre": "Instrumental",
+            "Tanggal_Rilis": "19 November 1996",
+            "Img": "https://e.snmc.io/i/300/s/0041250f0a77d0bc184530efd8bdfd12/2698402/DJ%20Shadow%20-%20Endtroducing_____%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 54,
+            "Judul": "Blonde",
+            "Penyanyi": "Frank Ocean",
+            "Rating": "4.09",
+            "Genre": "Alternative",
+            "Tanggal_Rilis": "20 August 2016",
+            "Img": "https://e.snmc.io/i/300/s/113c7f6e8ec2aebde66e394c9309c681/8060362/Frank%20Ocean%20-%20Blonde%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 55,
+            "Judul": "Atrocity Exhibition",
+            "Penyanyi": "Danny Brown",
+            "Rating": "4.12",
+            "Genre": "Experimental",
+            "Tanggal_Rilis": "30 September 2016",
+            "Img": "https://e.snmc.io/i/300/s/f64f378d822ab68f8df8e31e3f034320/10533488/Danny%20Brown%20-%20Atrocity%20Exhibition%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 56,
+            "Judul": "Homogenic",
+            "Penyanyi": "Bj\u00f6rk",
+            "Rating": "4.11",
+            "Genre": "Art",
+            "Tanggal_Rilis": "22 September 1997",
+            "Img": "https://e.snmc.io/i/300/s/3e84481143c67f96209b7697530ad8c2/8697079/Bj%C3%B6rk%20-%20Homogenic%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 57,
+            "Judul": "The College Dropout",
+            "Penyanyi": "Kanye West",
+            "Rating": "4.08",
+            "Genre": "Chipmunk",
+            "Tanggal_Rilis": "10 February 2004",
+            "Img": "https://e.snmc.io/i/300/s/dd80b612e476627241a655c6102788d4/4096884/Kanye%20West%20-%20The%20College%20Dropout%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 58,
+            "Judul": "Heaven or Las Vegas",
+            "Penyanyi": "Cocteau Twins",
+            "Rating": "4.13",
+            "Genre": "Dream",
+            "Tanggal_Rilis": "17 September 1990",
+            "Img": "https://e.snmc.io/i/300/s/7e1af943a8159a804d6696b11babe3c8/8917820/Cocteau%20Twins%20-%20Heaven%20or%20Las%20Vegas%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 59,
+            "Judul": "Blonde on Blonde",
+            "Penyanyi": "Bob Dylan",
+            "Rating": "4.15",
+            "Genre": "Folk",
+            "Tanggal_Rilis": "20 June 1966",
+            "Img": "https://e.snmc.io/i/300/s/cde93df253af51f79d473ec66013b854/6868676/Bob%20Dylan%20-%20Blonde%20on%20Blonde%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 60,
+            "Judul": "Either / Or",
+            "Penyanyi": "Elliott Smith",
+            "Rating": "4.13",
+            "Genre": "Singer-Songwriter",
+            "Tanggal_Rilis": "25 February 1997",
+            "Img": "https://e.snmc.io/i/300/s/157bb70447cced100bb21830183d5929/5191061/Elliott%20Smith%20-%20Either%20%2F%20Or%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 61,
+            "Judul": "Electric Ladyland",
+            "Penyanyi": "The Jimi Hendrix Experience",
+            "Rating": "4.15",
+            "Genre": "Blues",
+            "Tanggal_Rilis": "25 October 1968",
+            "Img": "https://e.snmc.io/3.0/img/blocked_art/img_blocked_300x300.png"
+      },
+      {
+            "No": 62,
+            "Judul": "Master of Reality",
+            "Penyanyi": "Black Sabbath",
+            "Rating": "4.13",
+            "Genre": "Heavy",
+            "Tanggal_Rilis": "21 July 1971",
+            "Img": "https://e.snmc.io/i/300/s/181341a89a4c646843eedd7f345f426b/2918156/Black%20Sabbath%20-%20Master%20of%20Reality%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 63,
+            "Judul": "The Doors",
+            "Penyanyi": "The Doors",
+            "Rating": "4.09",
+            "Genre": "Psychedelic",
+            "Tanggal_Rilis": "4 January 1967",
+            "Img": "https://e.snmc.io/i/300/s/6b291c76383a680d6eaaabec6ee6849f/2281803/The%20Doors%20-%20The%20Doors%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 64,
+            "Judul": "Blood on the Tracks",
+            "Penyanyi": "Bob Dylan",
+            "Rating": "4.15",
+            "Genre": "Singer-Songwriter",
+            "Tanggal_Rilis": "20 January 1975",
+            "Img": "https://e.snmc.io/i/300/s/50281fb37061ee2a0bfd96a1ce60060d/9813259/Bob%20Dylan%20-%20Blood%20on%20the%20Tracks%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 65,
+            "Judul": "What's Going On",
+            "Penyanyi": "Marvin Gaye",
+            "Rating": "4.14",
+            "Genre": "Soul",
+            "Tanggal_Rilis": "21 May 1971",
+            "Img": "https://e.snmc.io/i/300/s/0eed3627535d1598bd82d36e7776112d/6368145/Marvin%20Gaye%20-%20What's%20Going%20On%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 66,
+            "Judul": "\u2605 [Blackstar]",
+            "Penyanyi": "David Bowie",
+            "Rating": "4.10",
+            "Genre": "Art",
+            "Tanggal_Rilis": "8 January 2016",
+            "Img": "https://e.snmc.io/i/300/s/09a90ef81e68ecb30fab9d82d6d8b40c/5978111/David%20Bowie%20-%20%E2%98%85%20%5BBlackstar%5D%2C%20Cover%20art.png"
+      },
+      {
+            "No": 67,
+            "Judul": "Soundtracks for the Blind",
+            "Penyanyi": "Swans",
+            "Rating": "4.14",
+            "Genre": "Experimental",
+            "Tanggal_Rilis": "22 October 1996",
+            "Img": "https://e.snmc.io/i/300/s/37420c23fc19b14a803acce34d646b1f/1868623/Swans%20-%20Soundtracks%20for%20the%20Blind%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 68,
+            "Judul": "Closer",
+            "Penyanyi": "Joy Division",
+            "Rating": "4.09",
+            "Genre": "Post-Punk",
+            "Tanggal_Rilis": "18 July 1980",
+            "Img": "https://e.snmc.io/i/300/s/bce16540c2924030091371ff99d99853/7790079/Joy%20Division%20-%20Closer%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 69,
+            "Judul": "Illinois",
+            "Penyanyi": "Sufjan Stevens",
+            "Rating": "4.10",
+            "Genre": "Chamber",
+            "Tanggal_Rilis": "5 July 2005",
+            "Img": "https://e.snmc.io/i/300/s/6129cce0297c80b4dbdae7a8b88b545b/6845564/Sufjan%20Stevens%20-%20Illinois%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 70,
+            "Judul": "MM..FOOD",
+            "Penyanyi": "MF DOOM",
+            "Rating": "4.12",
+            "Genre": "East",
+            "Tanggal_Rilis": "16 November 2004",
+            "Img": "https://e.snmc.io/i/300/s/c432460c33e4cac89fa13dc013415f77/1317618/MF%20DOOM%20-%20MM__FOOD%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 71,
+            "Judul": "Are You Experienced",
+            "Penyanyi": "The Jimi Hendrix Experience",
+            "Rating": "4.11",
+            "Genre": "Blues",
+            "Tanggal_Rilis": "12 May 1967",
+            "Img": "https://e.snmc.io/i/300/s/f1473721661f24ff93b95462417d373a/2609770/The%20Jimi%20Hendrix%20Experience%20-%20Are%20You%20Experienced%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 72,
+            "Judul": "Laughing Stock",
+            "Penyanyi": "Talk Talk",
+            "Rating": "4.12",
+            "Genre": "Post-Rock",
+            "Tanggal_Rilis": "19 November 1991",
+            "Img": "https://e.snmc.io/i/300/s/69e6b1692f03a766273ebc989d3b20fd/6811660/Talk%20Talk%20-%20Laughing%20Stock%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 73,
+            "Judul": "Station to Station",
+            "Penyanyi": "David Bowie",
+            "Rating": "4.11",
+            "Genre": "Art",
+            "Tanggal_Rilis": "23 January 1976",
+            "Img": "https://e.snmc.io/i/300/s/cccd7f78f4ade1e46c0ea3cd834487e9/2662002/David%20Bowie%20-%20Station%20to%20Station%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 74,
+            "Judul": "Songs of Leonard Cohen",
+            "Penyanyi": "Leonard Cohen",
+            "Rating": "4.13",
+            "Genre": "Contemporary",
+            "Tanggal_Rilis": "27 December 1967",
+            "Img": "https://e.snmc.io/i/300/s/5e37ac86f5c4597a41a582f5a3cbcf30/2522186/Leonard%20Cohen%20-%20Songs%20of%20Leonard%20Cohen%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 75,
+            "Judul": "Selected Ambient Works 85-92",
+            "Penyanyi": "Aphex Twin",
+            "Rating": "4.06",
+            "Genre": "Ambient",
+            "Tanggal_Rilis": "9 November 1992",
+            "Img": "https://e.snmc.io/i/300/s/1269c48a81205ab326f8c6839f868483/1353614/Aphex%20Twin%20-%20Selected%20Ambient%20Works%2085-92%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 76,
+            "Judul": "Igor",
+            "Penyanyi": "Tyler, the Creator",
+            "Rating": "4.02",
+            "Genre": "Neo-Soul",
+            "Tanggal_Rilis": "17 May 2019",
+            "Img": "https://e.snmc.io/i/300/s/aee3ee21007e8fcda01ce67f92586e40/7574908/Tyler%2C%20the%20Creator%20-%20Igor%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 77,
+            "Judul": "Donuts",
+            "Penyanyi": "J Dilla",
+            "Rating": "4.10",
+            "Genre": "Instrumental",
+            "Tanggal_Rilis": "7 February 2006",
+            "Img": "https://e.snmc.io/i/300/s/2c47be88281020ab550dd06538f1710d/3124480/J%20Dilla%20-%20Donuts%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 78,
+            "Judul": "Ride the Lightning",
+            "Penyanyi": "Metallica",
+            "Rating": "4.07",
+            "Genre": "Thrash",
+            "Tanggal_Rilis": "30 July 1984",
+            "Img": "https://e.snmc.io/i/300/s/8bf4e132ebfa62471d5a233127f2b14d/3693902/Metallica%20-%20Ride%20the%20Lightning%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 79,
+            "Judul": "Liquid Swords",
+            "Penyanyi": "Genius/GZA",
+            "Rating": "4.11",
+            "Genre": "East",
+            "Tanggal_Rilis": "7 November 1995",
+            "Img": "https://e.snmc.io/i/300/s/47c1412a846a532529644e7fe0553423/2679854/Genius%2FGZA%20-%20Liquid%20Swords%2C%20Cover%20art.jpeg"
+      },
+      {
+            "No": 80,
+            "Judul": "Aquemini",
+            "Penyanyi": "OutKast",
+            "Rating": "4.12",
+            "Genre": "Southern",
+            "Tanggal_Rilis": "29 September 1998",
+            "Img": "https://e.snmc.io/i/300/s/c0bfabac2e4d3adbd66a449ed0db62b3/8595826/OutKast%20-%20Aquemini%2C%20Cover%20art.jpeg"
+      }
+]

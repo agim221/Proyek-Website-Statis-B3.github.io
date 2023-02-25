@@ -519,7 +519,7 @@
         </script> -->
     <section id="section-berita" >
       <div class="container" data-aos="fade-up">
-        <h1 class="judul-berita">Daftar Berita</h1>
+        <h1 class="judul-berita">Data Scraping 1</h1>
         <ul id="berita"></ul>
         
         <script src="BeritaTerkini.json"></script>
@@ -530,13 +530,34 @@
             let berita = document.getElementById('berita');
             data.forEach(item => {
               let elem = document.createElement('ul');
-              elem.innerHTML = `<li class="berita"><a href="${item.link} target="_blank" rel="noopener noreferrer">${item.judul}</a><p class="berita-kategori">${item.kategori}</p><img src="${item.picture}" witdth="150" height="150"/></li>`;
+              elem.innerHTML = `<li class="berita"><a href="${item.link} target="_blank" rel="noopener noreferrer">${item.judul}</a><p class="berita-kategori">${item.kategori}</p><p>${item.waktu_scraping}</p><img src="${item.picture}" witdth="150" height="150"/></li>`;
               berita.appendChild(elem);
             });
           });
           </script>
           </div>
       </section>
+
+      <section id="section-music" >
+        <div class="container" data-aos="fade-up">
+          <h1 class="judul-music">Data Scraping 2</h1>
+          <ul id="music"></ul>
+          
+          <script src="/webscrapping/hasilscraping.json"></script>
+          <script>
+            fetch('hasilscraping.json')
+            .then(response => response.json())
+            .then(data => {
+              let music = document.getElementById('music');
+              data.forEach(item => {
+                let element = document.createElement('ul');
+                elem.innerHTML = `<li><p>${item.No}</p> <p>${item.judul}</P></li>`;
+                music.appendChild(elem);
+              });
+            });
+            </script>
+            </div>
+        </section>
 
       
 
