@@ -1606,10 +1606,78 @@ ul {
 
 #albums-list {
   /* margin-left: 130px; */
-  padding-bottom: 100px;
-  margin-left: 180px;
+  padding-bottom: 200px;
+  margin-left: 50px;
 }
 
 #albums-list p {
   line-height: 5px;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #fffefe;
+  animation: fadein 1s;
+}
+
+th {
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+  width: 20%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 30%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width: 20%;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  width: 10%;
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+  width: 10%;
+}
+
+th:nth-child(6),
+td:nth-child(6) {
+  width: 5%;
+}
+
+th:nth-child(7),
+td:nth-child(7) {
+  width: 5%;
+}
+
+td img {
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

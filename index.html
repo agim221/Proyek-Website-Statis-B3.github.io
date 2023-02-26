@@ -66,7 +66,8 @@
               <a class="nav-link scrollto" href="#portfolio">Video Dokumentasi</a>
             </li>
             <li><a class="nav-link scrollto" href="#team">Team</a></li>
-            <li><a class="nav-link scrollto" href="#section-berita">Berita</a></li>
+            <li><a class="nav-link scrollto" href="#section-berita">Data Scraping 1</a></li>
+            <li><a class="nav-link scrollto" href="#section-music">Data Scraping 2</a></li>
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
@@ -530,7 +531,13 @@
             let berita = document.getElementById('berita');
             data.forEach(item => {
               let elem = document.createElement('ul');
-              elem.innerHTML = `<li class="berita"><a href="${item.link} target="_blank" rel="noopener noreferrer">${item.judul}</a><p class="berita-kategori">${item.kategori}</p><p>${item.waktu_scraping}</p><img src="${item.picture}" witdth="150" height="150"/></li>`;
+              elem.innerHTML = `
+              <li class="berita">
+                <a href="${item.link} target="_blank" rel="noopener noreferrer">${item.judul}</a>
+                <p class="berita-kategori">${item.kategori}</p><p>${item.waktu_scraping}</p>
+                <img src="${item.picture}" witdth="150" height="150"/>
+              </li>
+              `;
               berita.appendChild(elem);
             });
           });
@@ -538,7 +545,7 @@
           </div>
       </section>
 
-      <section class="section-music" >
+      <!-- <section id="section-music" >
         <div class="container" data-aos="fade-up">
           <h2 class="judul-berita">Data Scraping 2</h2>          
           
@@ -553,20 +560,64 @@
               albums.forEach(album => {
                 const li = document.createElement("li");
                 li.innerHTML = `
-                <img src="${album.Img}" alt="${album.Judul} height="200" width="200">
-                <h5>Judul : ${album.Judul}</h5>
+                <img src="${album.Img}" alt="${album.Judul}" height="200" width="200">
+                <h5>Judul   : ${album.Judul}</h5>
                 <p>Penyanyi : ${album.Penyanyi}</p>
-                <p>Genre : ${album.Genre}</p>
-                <p>Rilis : ${album.Tanggal_Rilis}</p>
-                <p>Rating : ${album.Rating}</p>
-                <p>Tanggal scraping: ${album.waktu_scraping}</p>
+                <p>Genre    : ${album.Genre}</p>
+                <p>Rilis    : ${album.Tanggal_Rilis}</p>
+                <p>Rating   : ${album.Rating}</p>
+                <p>Tanggal scraping : ${album.waktu_scraping}</p>
                 `;
                 albumsList.appendChild(li);
               });
             });
             </script>
         </div>
+      </section> -->
+
+      <section id="section-music">
+        <div class="container" data-aos="fade-up">
+          <h2 class="judul-berita">Data Scraping 2</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Gambar</th>
+                <th>Judul</th>
+                <th>Penyanyi</th>
+                <th>Genre</th>
+                <th>Tanggal Rilis</th>
+                <th>Rating</th>
+                <th>Tanggal Scraping</th>
+              </tr>
+            </thead>
+            <tbody id="albums-table">
+            </tbody>
+          </table>
+      
+          <script>
+            fetch("webscrapping/hasilscraping.json")
+              .then(response => response.json())
+              .then(albums => {
+                const albumsTable = document.getElementById("albums-table");
+      
+                albums.forEach(album => {
+                  const tr = document.createElement("tr");
+                  tr.innerHTML = `
+                    <td><img src="${album.Img}" alt="${album.Judul}" height="100" width="100"></td>
+                    <td>${album.Judul}</td>
+                    <td>${album.Penyanyi}</td>
+                    <td>${album.Genre}</td>
+                    <td>${album.Tanggal_Rilis}</td>
+                    <td>${album.Rating}</td>
+                    <td>${album.waktu_scraping}</td>
+                  `;
+                  albumsTable.appendChild(tr);
+                });
+              });
+          </script>
+        </div>
       </section>
+      
 
       
 
